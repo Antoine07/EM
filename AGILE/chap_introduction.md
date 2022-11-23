@@ -21,3 +21,11 @@ Notez que pour cette partie vous devez faire un brainstorming (remu-méninges) a
 Voici un exemple d'organisation avec Trello
 
 ![trello](images/AGILE.png)
+
+
+Indications: initialisation du projet.Dans le dossier Calculator
+
+```bash
+npm init -y
+
+```
