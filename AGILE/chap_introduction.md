@@ -1,8 +1,10 @@
 # Méthodologie AGILE
 
-Exercice soit un package de 3 fonctions add, mult et div (alègbre classique) à l'aide de PHPUNIT et par équipe de deux tester cette fonction en utilisant la planification AGILE.
+Exercice soit un package de 3 fonctions add, mult et div (alègbre classique) à l'aide de Jest en JS et par équipe de trois, testez chacune de ces fonctions en utilisant la planification AGILE.
 
-Pour cette exercice on va utiliser Trello.Créez un dossier Calculator avec une partie de tests.
+Créez un dossier Calculator avec une partie de tests.
+
+Planifiez à l'aide de Trello le développement en utilisant la méthodologie AGILE (Framework Scrum).
 
 ## Plannifier 
 
