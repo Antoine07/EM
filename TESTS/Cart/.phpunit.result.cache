@@ -1,1 +1,1 @@
-{"version":1,"defects":{"CartTest::testMethodBuy":7},"times":{"CartTest::testMethodBuy":0.005}}
+{"version":1,"defects":{"CartTest::testMethodBuy":7,"CartTest::testStorageTva":7},"times":{"CartTest::testMethodBuy":0.005,"CartTest::testStorageTva":0.003}}

@@ -11,12 +11,20 @@ class CartTest extends TestCase
 
     public function setUp(): void
     {
-        $this->cart = new Cart();
+        $this->cart = new Cart([]);
     }
 
     public function testStorageTva(): void
     {
+        $this->cart->buy(10, 2);
+        $this->cart->buy(12, 1);
+        $this->cart->buy(15.5, 7);
 
+        /**
+         * 10*2*1.2 + 12*1.2 + 15.5*7*1.2
+         * (10*2 + 12 + 15.5*7 ) * 1.2
+         */
 
+        $this->assertEquals((10*2 + 12 + 15.5*7 ) * 1.2, $this->cart->total());
     }
 }
