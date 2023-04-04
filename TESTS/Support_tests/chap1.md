@@ -2,6 +2,8 @@
 
 Les tests unitaires permettent de tester la logique algorithmique de l'application.
 
+Les tests unitaires sont fondés sur le principe d'isolation des tests, chaque test est isolé des autres tests. Voir la méthode setUp qui est exécutée pour chaque test de la classe.
+
 ## Installation PHPUnit
 
 Avec composer dans un dossier Cart, dossier qui va nous permettre de découvrir le composant PHPUnit pour réaliser des tests unitaires.
@@ -52,3 +54,7 @@ En TDD (tests driven developpment), testez que la méthode buy ajoute bien un pr
 ## 02 Exercice Product
 
 Créez maintenant une classe Product et commandez des produits, puis tester que le total du prix des produits commandés.
+
+## 03 Exercice Restore
+
+Créez la méthode restore qui retire un produit du storage. Vous pouvez tester le total dans la classe Cart avant, puis après avoir retirer un produit du storage, pour vérifiez son bon fonctionnent.
