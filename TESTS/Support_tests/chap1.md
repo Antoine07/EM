@@ -48,3 +48,7 @@ On a un fichier spécifique également dans le dossier tests, bootstrap.php, qui
 ## 01 Exercice 
 
 En TDD (tests driven developpment), testez que la méthode buy ajoute bien un produit dans un panier storage (array php) en appliquant la tva de 20 % pour chaque produit ajouté.
+
+## 02 Exercice Product
+
+Créez maintenant une classe Product et commandez des produits, puis tester que le total du prix des produits commandés.
