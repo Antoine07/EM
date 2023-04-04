@@ -11,9 +11,9 @@ class Cart{
         $this->tva = $tva;
     }
 
-    public function buy($price, $quantity){
+    public function buy(Product $product, $quantity){
        
-        $this->storage[] = $price * $quantity * (1 + $this->tva);
+        $this->storage[$product->getName()] = $product->getPrice() * $quantity * (1 + $this->tva);
     }
 
     public function total():float{

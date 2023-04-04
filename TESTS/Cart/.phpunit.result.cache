@@ -1,1 +1,1 @@
-{"version":1,"defects":{"CartTest::testMethodBuy":7,"CartTest::testStorageTva":7},"times":{"CartTest::testMethodBuy":0.005,"CartTest::testStorageTva":0.003}}
+{"version":1,"defects":{"CartTest::testMethodBuy":7,"CartTest::testStorageTva":7,"CartTest::testStorageTva#0":7,"CartTest::testStorageTva#1":7,"CartTest::testStorageTva#2":7,"CartTest::testTotalStorage":7},"times":{"CartTest::testMethodBuy":0.005,"CartTest::testStorageTva":0.003,"CartTest::testStorageTva#0":0.015,"CartTest::testStorageTva#1":0,"CartTest::testStorageTva#2":0.001,"CartTest::testTotalStorage":0}}
