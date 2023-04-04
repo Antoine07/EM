@@ -2,7 +2,9 @@
 
 class Cart{
 
+    protected $storage = [];
+
     public function buy($price, $quantity){
-        return "test buy method";
+       
     }
 }
